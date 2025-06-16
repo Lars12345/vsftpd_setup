@@ -140,6 +140,4 @@ echo "   - Wenn du dem Benutzer Zugriff auf andere Verzeichnisse im Container ge
 echo "   - Du müsstest dafür 'chroot_local_user=YES' in /etc/vsftpd.conf auskommentieren oder auf 'NO' setzen."
 echo "   - Danach müsstest du die Dateisystemberechtigungen für die gewünschten Ordner manuell anpassen, damit der Benutzer '$FTP_USER' darauf zugreifen kann."
 echo "   - Ein Neustart von vsftpd wäre danach erforderlich: 'systemctl restart vsftpd'."
-echo "3. Passwort: Das verwendete Passwort ist 'Opellars123'. Für eine Produktionsumgebung wird ein komplexeres Passwort dringend empfohlen!"
-echo " "
 echo "Viel Erfolg!"
